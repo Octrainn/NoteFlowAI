@@ -9,7 +9,7 @@ function Navbar (){
         "Journal",
         "Theme",
         "Diary",
-        "Template (Notebook vs Blank)"
+        "Template"
 
     ]
 

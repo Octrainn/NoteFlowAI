@@ -1,6 +1,12 @@
 #root {
     --nice-color: #F8F8F8;
-    --text-size: 1.6rem;
+    --text-size: 1.5rem;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .nav-container {
