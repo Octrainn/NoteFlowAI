@@ -16,7 +16,7 @@ function Header() {
     };
 
     return (
-    <div>
+    <div className="notes">
         <h1>NoteFlow</h1>
         <textarea 
         rows="10"
