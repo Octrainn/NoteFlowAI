@@ -1,7 +1,7 @@
 #root {
-    --nice-color: #F8F8F8;
+    --side-bar-color: #f1fafa;
     --text-size: 1.5rem;
-    --highlight-color: #e7e4e4;
+    --highlight-color: #e4e6e7;
     --darker-highlight-color: #d8d5d5;
 
 }
@@ -11,6 +11,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;     
+    
 }
 
 .nav-container {
@@ -20,8 +21,8 @@ body{
     height: 100%;
     width: 20%;
 
-    background-color: var(--nice-color);
-    border-radius: 30px;
+    background-color: var(--side-bar-color);
+    border-radius: 10px;
     flex: 1;
     position: fixed;
 }
