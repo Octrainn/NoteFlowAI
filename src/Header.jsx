@@ -16,11 +16,12 @@ function Header() {
     };
 
     return (
-    <div className="notes">
+    <div className="note-container">
+        <div className="screen">
         <h1>NoteFlow</h1>
         <textarea 
-        rows="10"
-        cols="10"
+        rows="100"
+        cols="100"
         value={currentNote}
         onChange={handleNoteChange}
         placeholder="Start Writing..."
@@ -32,6 +33,7 @@ function Header() {
                 <li key={index}>{note}</li>
             ))}
         </ul>
+        </div>
     </div>
     );
 }
