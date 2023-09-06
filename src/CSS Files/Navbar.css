@@ -10,7 +10,8 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;     
+    font-family: 'Cormorant Garamond';
+
     
 }
 
@@ -30,17 +31,17 @@ body{
 .elements {
     padding-top: 10px;
     list-style: none;
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
     font-size: var(--text-size);
-    
+   margin-right: 6rem;
     width: 300px;
    
 }
 
 .elements:hover {
     background-color: var(--highlight-color);
-    width: 85%;
+    width: 90%;
     border-radius: 8px;
 }
 .icon-text {
@@ -66,7 +67,10 @@ body{
 /*
 merging both header and jsx
 */
-
-.app-container{
-    display: flex;
+.profile-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px; 
+   
 }
